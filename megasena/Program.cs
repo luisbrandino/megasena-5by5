@@ -10,15 +10,13 @@ for (int i = 0; i < size; i++)
 
 for (int i = 0; i < sortedSize; i++)
 {
-    int index; 
-    int chosenNumber;
+    int index;
 
     while (true)
     {
         index = new Random().Next(0, 60);
-        chosenNumber = numbers[index];
 
-        if (chosenNumber > 0)
+        if (numbers[index] > 0)
             break;
     }
 
