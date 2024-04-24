@@ -6,9 +6,7 @@ int[] numbers = new int[size];
 int[] sorted = new int[sortedSize];
 
 for (int i = 0; i < size; i++)
-{
     numbers[i] = i + 1;
-}
 
 for (int i = 0; i < sortedSize; i++)
 {
@@ -17,7 +15,7 @@ for (int i = 0; i < sortedSize; i++)
 
     while (true)
     {
-        index = new Random().Next(0, 59);
+        index = new Random().Next(0, 60);
         chosenNumber = numbers[index];
 
         if (chosenNumber > 0)
